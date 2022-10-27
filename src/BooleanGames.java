@@ -26,7 +26,7 @@ public class BooleanGames {
     /* Returns true if the instance variable, number, is odd; returns false
        otherwise; needs to be able to handle case when number is negative */
     public boolean isOdd() {
-        return (number % 2 == 1 || -1);
+        return (number % 2 == 1) || (number % 2 == -1);
     }
 
     /* Returns true if the instance variable, number, is a multiple of x;
