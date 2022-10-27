@@ -44,7 +44,7 @@ public class BooleanGames {
        PRECONDITION:  num >= 0
      */
     public boolean isOnesDigit(int num) {
-        int onesDigit = number.substring(number.length() - 1);
+        int onesDigit = Math.abs(number % 10);
         return (onesDigit == num);
     }
 }
